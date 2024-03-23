@@ -26,6 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls), 
     # path('app1/', include('app1.urls')), 
     path('emp', views.emp),  
+    path('', views.emp),  
     path('show',views.show),  
     path('edit/<int:id>', views.edit),  
     path('update/<int:id>', views.update),  
