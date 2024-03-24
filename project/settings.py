@@ -83,11 +83,16 @@ DATABASES = {
 
     'default': {  
         'ENGINE': 'django.db.backends.mysql',  
-        'NAME': 'myd',  
+        'NAME': 'mycrud',  
         'USER':'root',  
         'PASSWORD':'Yoganthanva1992@',  
         'HOST':'localhost',  
-        'PORT':'3306'  
+        'PORT':'3306',
+        'OPTIONS': {
+        'autocommit': True,
+
+        },
+
     }  
 }
 

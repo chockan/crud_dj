@@ -24,9 +24,10 @@ from django.urls import path
 from app1 import views  
 urlpatterns = [  
     path('admin/', admin.site.urls), 
-    # path('app1/', include('app1.urls')), 
-    path('emp', views.emp,name='emp'),  
+    # path('app1/', include('app1.urls')),
     path('', views.emp,name='emp'),  
+    path('emp', views.emp,name='emp'),  
+     
     path('show',views.show,name='show'),  
     path('edit/<int:id>', views.edit,name='edit'),  
     path('update/<int:id>', views.update,name='update'),  
