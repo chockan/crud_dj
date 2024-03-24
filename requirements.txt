@@ -1,8 +1,11 @@
 asgiref==3.8.1
 Django==4.2.11
+gunicorn==21.2.0
 mysql==0.0.3
+mysql-connector==2.2.9
 mysqlclient==2.2.4
+packaging==24.0
+PyMySQL==1.1.0
 sqlparse==0.4.4
 typing-extensions==4.10.0
 tzdata==2024.1
-gunicorn
